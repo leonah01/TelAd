@@ -1,0 +1,277 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Set a max-width for the header */
+header {
+  max-width: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+/* Style the navigation links */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+main {
+  padding: 10px; /* Add padding to the main content for small screens */
+  background-color: rgb(6, 91, 189)
+}
+
+
+footer {
+  background-color: black; /* Update footer background color for small screens */
+  color: white; /* Update footer text color for small screens */
+}
+
+
+/* Section Styles */
+section {
+  padding: 40px;
+}
+
+section#about {
+  background-color: #fff;
+}
+
+section #services {
+  background-color: #f2f2f2;
+}
+
+#services h4{
+    color: orangered;
+    font-size: xx-large;
+}
+
+section h2 {
+    color: #fff;
+}
+section p{
+  line-height: 2em;
+  /* Set the same height as the images for the paragraphs */
+  overflow: hidden; /* Hide any overflowing content */
+  text-overflow: ellipsis; /* Add an ellipsis (...) to indicate truncated text */
+  margin-top: 10px; 
+}
+
+section#team {
+  background-color: #fff;
+}
+
+/* OUR CLIENTS  */
+.logo-carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust spacing between logos */
+}
+
+.slide img {
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media Query for Responsive Design
+  @media (max-width: 768px) {
+    section {
+      padding: 20px;
+    }
+  }*/
+body {
+  align-items: center;}
+
+  #intro {
+  color: black;
+  }
+  #intro h2 {
+    color: #fff;
+  }
+
+h1 {
+    color: orangered;
+}
+/* Section Styles */
+section {
+  padding: 40px;
+  
+}
+
+section#contact-form {
+  background-color: #fff;
+}
+
+section#social-media {
+  background-color: #f2f2f2;
+}
+
+/* Form Styles */
+form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Social Media Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* styles/small.css */
+
+body {
+  font-size: 14px; /* Adjust the base font size for small screens */
+}
+
+header {
+  background-color: #333; /* Update header background color for small screens */
+}
+
+main {
+  padding: 10px; /* Add padding to the main content for small screens */
+}
+
+footer {
+  background-color: black; /* Update footer background color for small screens */
+  color: white; /* Update footer text color for small screens */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure the images maintain their aspect ratio and cover the specified dimensions */
+  transition: transform 0.3s; /* Add a transition for the hover effect */
+}
+img:hover {
+  transform: scale(1.1); /* Apply a scale transformation on hover for the animation */
+  transform: rotateY(180deg); 
+}
+
+/*SERVICE PAGE*/
+.socials ul {
+  justify-content: center;
+  display: flex; /* Use flexbox to create a flexible layout */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  transition: transform 0.3s;
+}
+.socials ul li {
+  transform: scale(1.05);
+}
+
+.socials li {
+  margin-right: 10px; /* Add some spacing between the social media icons */
+}
+
+.socials img {
+  width: 50px; /* Set a fixed width for the social media icons */
+  height: 50px; /* Set a fixed height for the social media icons */
+}
+.info-service h2 {
+  color: white;
+}
+.info-contact h2 {
+  color: white;
+}

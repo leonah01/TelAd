@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1025px) {
+    /* Add styles for large screens here */
+
+body {
+    font-size: 18px; /* Adjust the base font size for large screens */
+}
+
+
+main {
+    padding: 30px; /* Add even more padding to the main content for large screens */
+}
+
+footer {
+    background-color: black;
+    display: flex; /* Update footer background color for large screens */
+}
+
+}
